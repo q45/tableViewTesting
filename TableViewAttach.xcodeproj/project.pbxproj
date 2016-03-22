@@ -12,6 +12,7 @@
 		102CB3781CA1D06700BF4413 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 102CB3761CA1D06700BF4413 /* Main.storyboard */; };
 		102CB37A1CA1D06700BF4413 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 102CB3791CA1D06700BF4413 /* Assets.xcassets */; };
 		102CB37D1CA1D06700BF4413 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 102CB37B1CA1D06700BF4413 /* LaunchScreen.storyboard */; };
+		102CB3861CA1F3CD00BF4413 /* DentalOffice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102CB3851CA1F3CD00BF4413 /* DentalOffice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		102CB3791CA1D06700BF4413 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		102CB37C1CA1D06700BF4413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		102CB37E1CA1D06700BF4413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		102CB3851CA1F3CD00BF4413 /* DentalOffice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DentalOffice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		102CB3711CA1D06700BF4413 /* TableViewAttach */ = {
 			isa = PBXGroup;
 			children = (
+				102CB3841CA1F3AF00BF4413 /* DentalTestData */,
 				102CB3721CA1D06700BF4413 /* AppDelegate.swift */,
 				102CB3741CA1D06700BF4413 /* ViewController.swift */,
 				102CB3761CA1D06700BF4413 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				102CB37E1CA1D06700BF4413 /* Info.plist */,
 			);
 			path = TableViewAttach;
+			sourceTree = "<group>";
+		};
+		102CB3841CA1F3AF00BF4413 /* DentalTestData */ = {
+			isa = PBXGroup;
+			children = (
+				102CB3851CA1F3CD00BF4413 /* DentalOffice.swift */,
+			);
+			name = DentalTestData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				102CB3751CA1D06700BF4413 /* ViewController.swift in Sources */,
+				102CB3861CA1F3CD00BF4413 /* DentalOffice.swift in Sources */,
 				102CB3731CA1D06700BF4413 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
